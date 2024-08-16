@@ -4,18 +4,17 @@ function showAlertSuccess() {
 
 
 
+function checkPassword() {
+    let password1 = document.getElementById("password1").value 
+    let password2 = document.getElementById("password2").value 
+    if (password1 != password2) {
+        alert ("Las contraseñas no coinciden")
 
-function comprobarClave() {
-    let clave1 = document.getElementById("password1").value
-    let clave2 = document.getElementById("password2").value
-
-    if ( password1 == password2) {
-        if ( password1 == password2) {
-       alert("Las dos claves son iguales...\nRealizaríamos las acciones del caso positivo")
     } else {
-       alert("Las dos claves son distintas...\nRealizaríamos las acciones del caso negativo")
+        alert ("Las contraseñas coinciden")
     }
-}}
+}
+
 
 
 function showAlertError(message) {
@@ -64,4 +63,3 @@ document.getElementById('regBtn').addEventListener('click', function() {
 
    
 });
- 
