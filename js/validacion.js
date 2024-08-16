@@ -3,6 +3,7 @@ function showAlertSuccess() {
 }
 
 
+
 function checkPassword() {
     let password1 = document.getElementById("password1").value 
     let password2 = document.getElementById("password2").value 
@@ -13,6 +14,7 @@ function checkPassword() {
         alert ("Las contraseñas coinciden")
     }
 }
+
 
 
 function showAlertError(message) {
@@ -61,4 +63,3 @@ document.getElementById('regBtn').addEventListener('click', function() {
 
    
 });
-

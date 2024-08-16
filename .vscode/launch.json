@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://'https://github.com/sofiacarrion1/taller-grupal-7.3.git'",
+            "request": "launch",
+            "url": "http://'https://github.com/sofiacarrion1/taller-grupal-7.3.git'"
+        }
+    ]
+}
