@@ -69,9 +69,8 @@ function shortPassword() {
     let password1 = document.getElementById('password1').value;
     let password2 = document.getElementById('password2').value;
 
-    function shortPassword() {
         if (password1.length < 6 || password2.length < 6) {
             showAlertError('La contraseña debe tener 6 caracteres o más');
         }
-    }
+    
 }
